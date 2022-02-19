@@ -9,7 +9,106 @@
 }
 /*  */
 
+.container
+{
+    font-family: 'Roboto', sans-serif;
+}
+.head{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.cards{
+    background-color: #EEEEEE;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.cards .card{
+    background-color: white;
+    width: 25%;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
 
+.card .card-header{
+    display: flex;
+}
+.card .card-info{
+    width: 50%;
+    display: flex;
+}
+.card-info .card-info-image{
+    width: 50px;
+    height: 50px;
+    background-color: #EEEEEE;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card-info .card-info-image i{
+    font-size: 33px;
+}
+.card-info .card-info-details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.card-info .card-info-details .card-info-details-brand{
+    text-transform: capitalize;
+    color: #34373B;
+}
+.card-info .card-info-details .card-info-details-time{
+    color: #747678;
+}
+.card .card-header .btn{
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    
+}
+.card .card-header .btn span{
+    background-color: #FFFBEB;
+    color:#FFE38F ;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+
+
+.card .card-title{
+    margin: 30px 0px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #24282C;
+    text-transform: capitalize;
+    line-height: 1.2;
+    letter-spacing: 1.6;
+}
+
+.progress .card-progress-bar{
+    background-color: #E8ECEF;
+    border-radius: 15px;
+    min-width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.progress .progress-percent{
+    background-color: red;
+    /* width: 50%; */
+    height: 10px;
+}
+
+.progress .card-progress-details .applay{
+    color: #2A2E32;
+}
+.progress .card-progress-details .capacity{
+    color:#BBC1CE ;
+}
 
 
 /* logo */
